@@ -14,8 +14,9 @@ Endpoints are authenticated by default through an `authenticateUser` middleware.
 ## Available Endpoints
 
 - POST
-  /register - body: { email: string, password: string}
-  /login - body: { email: string, password: string}
+
+  - /register - body: { email: string, password: string}
+  - /login - body: { email: string, password: string}
 
 - GET
-  /route (authenticated) - headers: { authorization: "Bearer TOKEN" }
+  - /route (authenticated) - headers: { authorization: "Bearer TOKEN" }
