@@ -18,8 +18,9 @@ router.post("/register", async (req, res) => {
       message: "Something is wrong with the data you have sent",
     });
 
+  // BUG: This needs to check if that email already exists
   // DEBUG
-  // await User.deleteMany();
+  //await User.deleteMany();
 
   // Auto generate the password hash using bcrypt
   const saltRounds = 10;
