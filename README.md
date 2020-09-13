@@ -11,7 +11,7 @@ Endpoints are authenticated by default through an `authenticateUser` middleware.
 1. [x] Jsonwebtoken
 1. [x] brypt
 
-**Need a client/frontend ?** [@kepop1 - react-auth]('https://github.com/kepop1/react-auth')
+**Need a client/frontend ?** [@kepop1 - react-auth](https://github.com/kepop1/react-auth)
 
 ## Available Endpoints
 
